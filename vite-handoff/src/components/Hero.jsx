@@ -4,7 +4,7 @@ import { Reveal, Counter, CTA } from "./ui.jsx";
 import { HERO_BADGES } from "../data.js";
 import { wa, BRAND, BRAND_FULL, WA_NUMBER } from "../config.js";
 
-function CallbackForm() {
+export function CallbackForm() {
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
   const submit = (e) => {
@@ -82,7 +82,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <Reveal delay={200}>
+        <Reveal delay={200} className="hidden lg:block">
           <div className="relative">
             <div className="absolute -inset-4 bg-gradient-to-br from-brand-600/20 to-teal-500/20 blur-2xl rounded-3xl" />
             <div className="relative"><CallbackForm /></div>
@@ -102,6 +102,7 @@ export default function Hero() {
           </Reveal>
         ))}
       </div>
+
     </section>
   );
 }
