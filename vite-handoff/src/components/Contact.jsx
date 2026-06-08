@@ -1,7 +1,6 @@
 import React from "react";
 import Icon from "./Icon.jsx";
 import { Reveal, CTA, Logo } from "./ui.jsx";
-import { CallbackForm } from "./Hero.jsx";
 import { wa, BRAND, BRAND_FULL, WA_NUMBER } from "../config.js";
 
 export default function Contact() {
@@ -21,12 +20,6 @@ export default function Contact() {
                 </a>
               </div>
             </div>
-          </div>
-        </Reveal>
-        <Reveal delay={120} className="lg:hidden max-w-md mx-auto mt-10">
-          <div className="relative">
-            <div className="absolute -inset-3 bg-gradient-to-br from-brand-600/20 to-teal-500/20 blur-2xl rounded-3xl" />
-            <div className="relative"><CallbackForm /></div>
           </div>
         </Reveal>
       </div>
