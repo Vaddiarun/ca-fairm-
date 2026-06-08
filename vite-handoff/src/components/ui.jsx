@@ -101,10 +101,11 @@ export function CTA({ href, children, variant = "primary", className = "", icon 
 export function Logo({ className = "" }) {
   return (
     <a href="#home" className={`flex items-center gap-2.5 group ${className}`}>
-      <span className="relative grid place-items-center w-10 h-10 rounded-xl bg-gradient-to-br from-brand-500 to-teal-500 shadow-lg shadow-brand-700/40">
-        <span className="absolute inset-0 rounded-xl ring-1 ring-white/30" />
-        <span className="font-display font-extrabold text-navy-950 text-lg leading-none">J</span>
-      </span>
+      <img
+        src="/jsk-logo.svg"
+        alt="JSK Associates logo"
+        className="w-11 h-11 rounded-xl shadow-lg shadow-brand-700/40 transition-transform duration-300 group-hover:scale-105"
+      />
       <span className="leading-tight">
         <span className="block font-display font-extrabold tracking-tight text-white text-[15px]">JSK Associates</span>
         <span className="block text-[10px] font-semibold uppercase tracking-[0.18em] text-brand-400">Consulting Pvt</span>

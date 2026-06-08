@@ -1,0 +1,28 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">JSK Associates logo</title>
+  <desc id="desc">A navy, blue, teal, and gold tax advisory mark with a document, check mark, upward financial line, and JSK initial.</desc>
+  <rect width="160" height="160" rx="36" fill="#04101F"/>
+  <rect x="10" y="10" width="140" height="140" rx="30" fill="url(#outer)"/>
+  <rect x="18" y="18" width="124" height="124" rx="25" fill="#081A33" fill-opacity="0.94"/>
+  <path d="M94 34H55C49.477 34 45 38.477 45 44V116C45 121.523 49.477 126 55 126H106C111.523 126 116 121.523 116 116V56L94 34Z" fill="#F8FBFF"/>
+  <path d="M94 34V51C94 53.761 96.239 56 99 56H116L94 34Z" fill="#DCEBFF"/>
+  <path d="M58 70H91" stroke="#143562" stroke-width="5" stroke-linecap="round"/>
+  <path d="M58 84H101" stroke="#143562" stroke-width="5" stroke-linecap="round" stroke-opacity="0.8"/>
+  <path d="M58 98H78" stroke="#143562" stroke-width="5" stroke-linecap="round" stroke-opacity="0.65"/>
+  <path d="M73 112L86 99L96 107L112 88" stroke="#10B981" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="113" cy="88" r="6" fill="#E2B45C"/>
+  <path d="M36 43C36 37.477 40.477 33 46 33H70C75.523 33 80 37.477 80 43V58C80 63.523 75.523 68 70 68H46C40.477 68 36 63.523 36 58V43Z" fill="url(#badge)"/>
+  <text x="58" y="57" text-anchor="middle" font-family="Sora, Arial, sans-serif" font-size="24" font-weight="800" fill="#04101F">J</text>
+  <path d="M38 119C47 131 60.833 137 79.5 137C98.167 137 112.667 130.833 123 118.5" stroke="#2E78E6" stroke-width="5" stroke-linecap="round" stroke-opacity="0.8"/>
+  <defs>
+    <linearGradient id="outer" x1="24" y1="18" x2="139" y2="143" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2E78E6"/>
+      <stop offset="0.55" stop-color="#10B981"/>
+      <stop offset="1" stop-color="#E2B45C"/>
+    </linearGradient>
+    <linearGradient id="badge" x1="40" y1="35" x2="78" y2="67" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E2B45C"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+</svg>
