@@ -1,0 +1,11 @@
+{
+  "installCommand": "cd vite-handoff && npm install",
+  "buildCommand": "cd vite-handoff && npm run build",
+  "outputDirectory": "vite-handoff/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
